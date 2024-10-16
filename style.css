@@ -504,6 +504,7 @@ section {
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
+
   }
   
   .accreditation__image {
@@ -1083,3 +1084,9 @@ section {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
   }
+
+  .accreditation--slider-con{
+    position: relative;
+  }
+
+  
