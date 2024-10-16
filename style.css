@@ -29,6 +29,10 @@
 
     --primary-color: #b80057;
 
+    --section-title-fontSize:2rem;
+    --section-padding:60px 0;
+    
+
 
 }
 
@@ -82,18 +86,7 @@ header {
     max-width: var(--max-width);
 }
 
-.banner-section .wrapper .child-1 .batch_number {
-    background-color: #203e99;
-    padding: 8px;
-    border-radius: 5px;
-    color: #000;
-    font-weight: 600px;
-    width: max-content;
-    margin-top: 20px;
-    font-size: 1.3rem;
-    color: #ffff;
-    border: 1px solid #fff;
-}
+
 
 .banner-section .wrapper .child-1 .hero-text {
     font-size: var(--font-super);
@@ -481,7 +474,7 @@ section {
 
   .accreditation {
     text-align: center;
-    padding: 60px 0;
+    padding: var(--section-padding);
     width: var(--width);
     max-width: var(--max-width);
     margin: auto;
@@ -489,7 +482,7 @@ section {
   
   .accreditation__title {
     color: #c52a54;
-    font-size: 2rem;
+    font-size: var(--section-title-fontSize);
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -556,7 +549,7 @@ section {
 /* Programme Overview Section */
 .programme-overview {
     background-color: #f0f0f0;
-    padding: 60px 0;
+    padding: var(--section-padding);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -572,22 +565,23 @@ section {
 
 .programme-overview__title {
     font-family: var(--font-family);
-    font-size: 2rem;
+    font-size: var(--section-title-fontSize);
     color: var(--primary-color);
     margin-bottom: 20px;
 }
 
 .programme-overview__description {
-    font-family: var(--font-family);
-    font-size: 1rem;
+    font-family: var(--font);
+    font-size: var(--font-medium);
     color: #333;
     line-height: 1.6;
+    font-weight: 400;
 }
 
 /* Section Styles */ 
 .highlights {
     text-align: center;
-    padding: 60px 0;
+    padding: var(--section-padding);
 
 }
 .highlights--container{
@@ -601,7 +595,7 @@ section {
 
 .highlights__title {
     font-family: var(--font-family);
-    font-size: 2rem;
+    font-size: var(--section-title-fontSize);
     color: var(--primary-color);
     margin-bottom: 30px;
 }
@@ -609,7 +603,7 @@ section {
 
 .CareerProspects {
     text-align: center;
-    padding: 60px 0;
+    padding: var(--section-padding);
 
 }
 .CareerProspects--container{
@@ -620,7 +614,7 @@ section {
 
 .CareerProspects__title {
     font-family: var(--font-family);
-    font-size: 2rem;
+    font-size: var(--section-title-fontSize);
     color: var(--primary-color);
     margin-bottom: 30px;
 }
@@ -649,12 +643,12 @@ section {
 .industry-pedagogy {
     text-align: center;
     background-color: #2e2e2e;
-    padding: 60px 0;
+    padding: var(--section-padding);
 }
 
 .industry-pedagogy__title {
     color: white;
-    font-size: 2em;
+    font-size: var(--section-title-fontSize);
     margin-bottom: 30px;
 }
 
@@ -675,7 +669,7 @@ section {
     /* Prevents tiling of the background */
     background-position: center;
     /* Centers the background image */
-    padding: 60px 0;
+    padding: var(--section-padding);
 
 }
 
@@ -687,7 +681,7 @@ section {
 }
 
 .programme__title {
-    font-size: 2rem;
+    font-size: var(--section-title-fontSize);
     color: #b3095f;
     text-align: center;
     margin-bottom: 20px;
@@ -703,7 +697,7 @@ section {
 .programme__header {
     background-color: #f7f7f7;
     padding: 15px;
-    font-size: 18px;
+    font-size: var(--font-medium);
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -735,18 +729,19 @@ section {
     border: none;
     border-radius: 30px;
     font-family: var(--font-family);
-    font-size: 1rem;
+    font-size: 18px;
     cursor: pointer;
-    max-width: 208px;
+    max-width: 230px;
     text-align: center;
     font-weight: bold;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+
 }
 
 .admission {
     background-color: #b80b4d;
     color: white;
-    padding: 60px 0;
+    padding: var(--section-padding);
     
     
 }
@@ -759,7 +754,7 @@ section {
 
 .admission__title {
     text-align: center;
-    font-size: 28px;
+    font-size: var(--section-title-fontSize);
     margin-bottom: 30px;
 }
 
@@ -774,7 +769,7 @@ section {
 }
 
 .admission__emi-title {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
     /* color: #b3095f; */
     font-weight: bold;
@@ -782,7 +777,7 @@ section {
 
 .admission__emi-text {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: var(--font-medium);
 }
 
 .admission__emi-logos {
@@ -812,14 +807,14 @@ section {
 }
 
 .admission__payment-title {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
 .admission__payment-text {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: var(--font-medium);
 }
 
 .admission__payment-methods {
@@ -866,7 +861,7 @@ section {
 
 .criteria {
     background-color: #2b2b2b;
-    padding: 60px 0;
+    padding: var(--section-padding);
     
   }
 
@@ -878,7 +873,7 @@ section {
   
   .criteria__title {
     color: #fff;
-    font-size: 2rem;
+    font-size: var(--section-title-fontSize);
     margin-bottom: 20px;
     text-align: center;
   }
@@ -902,6 +897,7 @@ section {
     transition: all 0.3s ease;
     width: 100%;
     border: 2px solid white;
+    font-size: var(--font-medium);
   }
   
   .criteria__tab--active {
@@ -920,6 +916,7 @@ section {
   
   .criteria__item {
     margin-bottom: 10px;
+    font-size: var(--font-small);
     color: white;
   }
   
@@ -937,11 +934,11 @@ section {
 
 
   .faculty-slider {
-    padding: 60px 0;
+    padding: var(--section-padding);
     /* background-color: #eae9ef; */
   }
   .faculty-slider__title {
-    font-size: 2rem;
+    font-size: var(--section-title-fontSize);
     color: #b3095f;
     text-align: center;
     margin-bottom: 20px;
@@ -986,7 +983,7 @@ section {
   .certification {
     position: relative;
     background: linear-gradient(to bottom, white 50%, #f2f2f2 50%);
-    padding: 60px 0;
+    padding: var(--section-padding);
     text-align: center;
     /* min-height: 500px; */
   }
@@ -997,7 +994,7 @@ section {
   }
   
   .certification__title {
-    font-size: 28px;
+    font-size: var(--section-title-fontSize);
     color: #c52a54;
     margin-bottom: 30px;
   }
@@ -1021,7 +1018,7 @@ section {
   }
   
   .certification__description {
-    font-size: 16px;
+    font-size: var(--font-medium);
     color: #333;
     /* max-width: 800px; */
     text-align: center;
@@ -1036,7 +1033,7 @@ section {
     background-color: #c52a54;
     color: white;
     text-align: center;
-    padding: 60px 0;
+    padding: var(--section-padding);
     min-height: 300px;
   }
   .mba-banner--container{
@@ -1045,13 +1042,17 @@ section {
     margin: auto;
   }
   .mba-banner__title {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    /* font-size: var(--font-super); */
+    font-size: 4rem;
+    font-family: var(--font-Bebas);
+    color: #fff;
+    line-height: 4rem;
+    font-weight: var(--light-font);
+    padding-bottom: 10px;
   }
   
   .mba-banner__subtitle {
-    font-size: 24px;
+    font-size: 20px;
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 8px;
@@ -1060,7 +1061,7 @@ section {
   }
   
   .mba-banner__description {
-    font-size: 18px;
+    font-size: var(--font-medium);
     /* max-width: 600px; */
     margin: 0 auto 40px;
     line-height: 1.6;

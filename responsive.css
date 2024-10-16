@@ -4,7 +4,10 @@
         --font-header: 18px;
         --font-medium: 14px;
         --font-small: 10px;
-        --font-super: 25px;
+        --font-super: 3rem;
+
+    --section-title-fontSize:1.2rem;
+    --section-padding:30px 0;
 
     }
 
@@ -15,7 +18,7 @@
     }
 
     .banner-section .wrapper .child-1 .hero-text {
-        font-size: 3.2rem;
+        /* font-size: 3.2rem; */
         /* color: #000000; */
         line-height: 1.5rem;
         /* border-bottom: 3px solid #ffffff; */
@@ -30,6 +33,9 @@
     }
     .grid-container {
         margin-top: 10px;
+    }
+    .child-2--container {
+        margin-left: unset;
     }
 
     
@@ -67,6 +73,9 @@
     }
     .criteria__item {
         line-height: 23px;
+    }
+    .certification {
+        background: unset;
     }
     
 }
