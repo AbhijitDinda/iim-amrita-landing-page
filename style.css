@@ -1,7 +1,7 @@
-/* @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap); */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 * {
@@ -14,7 +14,7 @@
 
 :root {
     --font: "Poppins", sans-serif;
-    --font-Oswald: "Oswald", sans-serif;
+    --font-Bebas: "Bebas Neue", sans-serif;
 
     --strong-font: 600;
     --light-font: 400;
@@ -25,14 +25,10 @@
     --font-header: 1.55rem;
     --font-medium: 16px;
     --font-small: 12px;
-    --font-super: 5rem;
+    --font-super: 6rem;
 
     --primary-color: #b80057;
-    --background-color: #f0f0f0;
-    --text-color: #333;
 
-    --button-color: #4f4f4f;
-    --button-text-color: white;
 
 }
 
@@ -101,16 +97,17 @@ header {
 
 .banner-section .wrapper .child-1 .hero-text {
     font-size: var(--font-super);
-    font-family: var(--font-Oswald);
+    font-family: var(--font-Bebas);
     color: #fff;
-    line-height: 5.5rem;
+    line-height: 4rem;
     font-weight: var(--light-font);
-    padding-bottom: 20px;
+    width: max-content;
+    padding-bottom: 10px;
     border-bottom: 3px solid #fff;
 }
 
 .banner-section .wrapper .child-1 .hero-text__smallText {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     padding-top: 10px;
     color: #fff;
     font-style: italic;
@@ -127,7 +124,7 @@ header {
     max-width: 1200px;
     /* margin: 0 auto; */
     color: #fff;
-    margin-top: 30px;
+    margin: 30px 0;
     position: relative;
     /* Added to ensure child absolute positioning works */
     width: 250px;
@@ -196,7 +193,7 @@ header {
     font-size: 1.25rem;
     color: #b80b4d;
     font-weight: var(--strong-font);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .form-group {
@@ -250,7 +247,7 @@ header {
 }
 
 .form-group label {
-    font-size: 0.83rem;
+    font-size: 0.5rem;
 }
 
 .btn {
@@ -260,7 +257,7 @@ header {
     border: none;
     border-radius: 6px;
     /* text-transform: uppercase; */
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: var(--strong-font);
     cursor: pointer;
 }
@@ -272,7 +269,7 @@ header {
     border: none;
     border-radius: 6px;
     /* text-transform: uppercase; */
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: var(--strong-font);
     cursor: pointer;
 }
@@ -406,7 +403,9 @@ section {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px 5px 5px 5px;
     padding: 5px 2px;
-    border: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
     color: white;
     font-family: Arial, sans-serif;
     width: 120px;
@@ -448,15 +447,15 @@ section {
   }
 
   .banner-programFee{
-    padding-top: 10px;
+    padding-top: 28px;
     font-size: var(--font-header);
     color: #fff;
-    font-weight: bold;
+    font-weight: 600;
   }
 
   .child-2-Eligibility__text{
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     /* margin-left: auto; */
 
   }
@@ -482,14 +481,15 @@ section {
 
   .accreditation {
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 0;
     width: var(--width);
+    max-width: var(--max-width);
     margin: auto;
   }
   
   .accreditation__title {
     color: #c52a54;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -555,8 +555,8 @@ section {
 
 /* Programme Overview Section */
 .programme-overview {
-    background-color: var(--background-color);
-    padding: 40px 0;
+    background-color: #f0f0f0;
+    padding: 60px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -580,15 +580,15 @@ section {
 .programme-overview__description {
     font-family: var(--font-family);
     font-size: 1rem;
-    color: var(--text-color);
+    color: #333;
     line-height: 1.6;
 }
 
 /* Section Styles */ 
 .highlights {
     text-align: center;
-    padding: 40px 0;
-    /* background-color: var(--background-color); */
+    padding: 60px 0;
+
 }
 .highlights--container{
     margin: auto;
@@ -609,8 +609,8 @@ section {
 
 .CareerProspects {
     text-align: center;
-    padding: 40px 0;
-    /* background-color: var(--background-color); */
+    padding: 60px 0;
+
 }
 .CareerProspects--container{
     margin: auto;
@@ -632,7 +632,7 @@ section {
 .highlights__button {
     margin-top: 40px;
     padding: 15px 45px;
-    background-color: var(--button-color);
+    background-color: #4f4f4f;
     color: white;
     border: none;
     border-radius: 30px;
@@ -649,7 +649,7 @@ section {
 .industry-pedagogy {
     text-align: center;
     background-color: #2e2e2e;
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 .industry-pedagogy__title {
@@ -675,6 +675,7 @@ section {
     /* Prevents tiling of the background */
     background-position: center;
     /* Centers the background image */
+    padding: 60px 0;
 
 }
 
@@ -682,7 +683,6 @@ section {
     width: var(--width);
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 40px 0;
     height: 1000px;
 }
 
@@ -746,7 +746,7 @@ section {
 .admission {
     background-color: #b80b4d;
     color: white;
-    padding: 40px 0;
+    padding: 60px 0;
     
     
 }
@@ -866,7 +866,7 @@ section {
 
 .criteria {
     background-color: #2b2b2b;
-    padding: 40px 0;
+    padding: 60px 0;
     
   }
 
@@ -937,7 +937,7 @@ section {
 
 
   .faculty-slider {
-    padding: 50px 0;
+    padding: 60px 0;
     /* background-color: #eae9ef; */
   }
   .faculty-slider__title {
@@ -986,9 +986,14 @@ section {
   .certification {
     position: relative;
     background: linear-gradient(to bottom, white 50%, #f2f2f2 50%);
-    padding: 50px 0;
+    padding: 60px 0;
     text-align: center;
     /* min-height: 500px; */
+  }
+  .certification--container{
+    width: var(--width);
+    max-width: var(--max-width);
+    margin: auto;
   }
   
   .certification__title {
