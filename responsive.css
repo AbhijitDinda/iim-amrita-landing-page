@@ -1,0 +1,76 @@
+@media screen and (max-width: 768px) {
+    :root {
+        --width: 90%;
+        --font-header: 18px;
+        --font-medium: 14px;
+        --font-small: 10px;
+        --font-super: 25px;
+
+    }
+
+    /* Centering and responsive alignment */
+    .header-content img {
+        /* margin: auto; */
+        display: block;
+    }
+
+    .banner-section .wrapper .child-1 .hero-text {
+        font-size: 1.2rem;
+        color: #000000;
+        line-height: 1.5rem;
+        border-bottom: 3px solid #000000;
+    }
+
+    .banner-section .wrapper .child-1 .hero-text__smallText {
+        color: #000000;
+    }
+
+    .banner-section .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    
+
+    .text-content,
+    .logo-content,
+    .center-content {
+        text-align: center;
+    }
+
+    .text-content {
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+    
+
+    .grid-container::before {
+        display: none;
+    }
+    .admission__emi-topContainer,.admission__payment  {
+        padding: 20px;
+    }
+
+    .admission__emi-logos {
+        flex-direction: column;
+        align-items: start;
+    }
+    .admission__payment-methods {
+        flex-direction: column;
+        align-items: start;
+    }
+    .criteria__tabs {
+        gap: 15px;
+        flex-direction: column;
+    }
+    .criteria__item {
+        line-height: 23px;
+    }
+    
+}
+@media (min-width: 1024px) {
+    
+  
+    .certification__description {
+      font-size: 18px;
+    }
+  }

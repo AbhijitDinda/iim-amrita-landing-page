@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="./assets/images/top Logo.png" loading="lazy" alt="IIM-Visakhapatnam" class="logo" />
+        </div>
+    </header>
+
+    <section class="banner-section">
+        <div class="wrapper">
+
+            <div class="child-1">
+                <h1 class="hero-text">
+                    ONLINE MBA
+                </h1>
+                <p class="hero-text__smallText">by Amrita Vishwa Vidyapeetham</p>
+                
+    
+                <div class="grid-container">
+                    
+    
+                    <!-- Centered Ranking Content -->
+                    <div class="grid-item center-content">
+                        <img src="./assets/images/1-rank.png" alt="#1 Rank Icon" class="rank-icon" />
+                        <p class="grid-item__logoText">NIRF India Ranking 2024</p>
+                    </div>
+    
+                    <!-- Right Logo Content -->
+                    <div class="grid-item center-content">
+                        <img src="./assets/images/1-rank.png" alt="#1 Rank Icon" class="rank-icon" />
+                        <p class="grid-item__logoText">NIRF India Ranking 2024</p>
+                    </div>
+                </div>
+
+                <div class="badge-container">
+                    <div class="badge">
+                        <div class="icon">
+                            <img src="./assets/images/2.clock.png" alt="img" class="badge-icon__img">
+                        </div>
+                        <div class="text">2 Years</div>
+                    </div>
+                </div>
+                
+
+                <p class="banner-programFee">Program Fee - INR 1,71,000/- </p>
+
+
+
+            </div>
+
+            <div class="child-2" id="main-form">
+                <div class="child-2--container">
+                
+                
+                    <p class="child-2-Eligibility__text"><b> Eligibility : </b>Any Graduate</p>
+                    <div class="form-wrapper" id="main-form-wrapper" style="display: block">
+                        <div class="loader-wrapper">
+                            <div class="loader"></div>
+                        </div>
+                        <h3 class="heading">Connect with Our Expart</h3>
+                
+                        <form id="main-form-body">
+                            <div class="form-message"></div>
+                            <!-- <div class="same-row">
+                                            <div class="form-group">
+                                                <input type="text" name="fname" id="fname" placeholder="First Name" class="form-control"
+                                                    onkeypress="return alphaOnly(event)" required />
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" name="lname" id="lname" placeholder="Last Name" class="form-control"
+                                                    onkeypress="return alphaOnly(event)" required />
+                                            </div>
+                                        </div> -->
+                            <div class="form-group">
+                                <input type="text" name="fname" id="fname" placeholder="Full Name*" class="form-control"
+                                    onkeypress="return alphaOnly(event)" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" placeholder="Email ID" class="form-control"
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+                            </div>
+                
+                            <div class="form-group">
+                                <input type="tel" name="phone" id="phone" placeholder="Mobile Number" class="form-control"
+                                    onkeypress="return isNumberKey(event)" required />
+                            </div>
+                
+                            <!-- <div class="same-row"> -->
+                            <div class="form-group">
+                                <select name="work-experience" id="course-name" class="form-control" required>
+                                    <option value="MBA">Master of Business Administration</option>
+                                    <option value="BBA">
+                                        BBA
+                                    </option>
+                
+                                </select>
+                            </div>
+                
+                
+                            <div class="form-group">
+                                <select name="work-experience" id="Location-state" class="form-control" required>
+                                    <option value="">Select State*</option>
+                                    <option value="West Bengal">
+                                        West Bengal
+                                    </option>
+                                    <option value="Odisha">Odisha</option>
+                                    <option value="Andhrapradesh">Andhrapradesh</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="work-experience" id="Location-city" class="form-control" required>
+                                    <option value="">Select city*</option>
+                                    <option value="kolkata">
+                                        kolkata
+                                    </option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="Goa">Goa</option>
+                                </select>
+                            </div>
+                
+                            <!-- </div> -->
+                
+                            <div class="form-group d-flex check-box-row">
+                                <input type="checkbox" name="graduate" id="graduate" value="yes" />
+                                <label class="ml-2" for="graduate">I authorise Amrita Vishwa Vidyapeetham and its associate to contact
+                                    me with updates & notifications via email, SMS, WhatsApp, and Voice Call. This consent will override
+                                    any registration for DNC/NDNC</label>
+                            </div>
+                
+                
+                
+                            <input type="hidden" name="university" value="IIM Ahmedabad" />
+                            <input type="hidden" name="program" value="Financial Reporting and Corporate Governance" />
+                
+                            <div class="main-form--buttonGroup_container">
+                                <button type="submit" class="btn2 main-form-submit">Send OTP to Register</button>
+                
+                                <button type="submit" class="btn main-form-submit">Already Register</button>
+                
+                
+                            </div>
+                
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="accreditation">
+        <h2 class="accreditation__title">The Amrita Accreditations & Recognitions</h2>
+        <div class="swiper accreditation__slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ">
+                    <div class="accreditation__slide">
+                        <img src="./assets/images/ranking/3.category.png" alt="Accreditation 1" class="accreditation__image" />
+                    </div>
+
+                    
+                    <h3 class="accreditation__heading">No.1</h3>
+                    <p class="accreditation__description">in India Top 100 in The World</p>
+
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="accreditation__slide">
+                        <img src="./assets/images/ranking/5 ranking-group copy.jpg" alt="Accreditation 2" class="accreditation__image" />
+                    </div>
+                    
+                    <h3 class="accreditation__heading">Institution</h3>
+                    <p class="accreditation__description">of Eminence</p>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="accreditation__slide">
+                        <img src="./assets/images/ranking/Layer 4 copy.jpg" alt="Accreditation 3" class="accreditation__image" />
+                    </div>
+                    
+                    <h3 class="accreditation__heading">A++</h3>
+                    <p class="accreditation__description">Grade</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="accreditation__slide">
+                        <img src="./assets/images/ranking/no1-international-faculty copy.jpg" alt="Accreditation 4" class="accreditation__image" />
+                    </div>
+                    
+                    <h3 class="accreditation__heading">No.1</h3>
+                    <p class="accreditation__description">Private University in India</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="accreditation__slide">
+                        <img src="./assets/images/ranking/ranking-no1 copy.jpg" alt="Accreditation 5" class="accreditation__image" />
+                    </div>
+                    
+                    <h3 class="accreditation__heading">No.1</h3>
+                    <p class="accreditation__description">International Faculty in India</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="accreditation__slide">
+                        <img src="./assets/images/ranking/ranking-no1 copy.jpg" alt="Accreditation 5" class="accreditation__image" />
+                    </div>
+                    
+                    <h3 class="accreditation__heading">No.1</h3>
+                    <p class="accreditation__description">International Faculty in India</p>
+                </div>
+            </div>
+            <!-- Add navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <section class="programme-overview">
+        <div class="programme-overview__container">
+        <h2 class="programme-overview__title">Programme Overview</h2>
+        <p class="programme-overview__description">
+          Amrita AHEAD MBA Online degree programme is offered by Amrita Vishwa Vidyapeetham, 
+          the 7th ranked university in India, and is backed by an industry-aligned curriculum 
+          and world-class faculty. Active participation from industry through certifications 
+          and projects are unique aspects of the Amrita AHEAD Online MBA course. The programme 
+          is also developed through a case study approach which develops the learner's 
+          problem-solving capability using various management principles and skills.
+        </p>
+        </div>
+        
+    </section>
+
+
+    <section class="highlights">
+        <div class="highlights--container">
+            <h2 class="highlights__title">Programme Highlights</h2>
+            <img class="highlights__data" src="./assets/images/Untitled-2.png" alt="img">
+
+            <button class="highlights__button">Learn More</button>
+        </div>
+        
+    </section>
+
+    <section class="CareerProspects">
+        <div class="CareerProspects--container">
+        <h2 class="CareerProspects__title">Career Prospects</h2>
+        <img class="CareerProspects__data" src="./assets/images/Untitled-3.png" alt="img">
+
+        </div>
+
+    </section>
+
+    <div class="industry-pedagogy">
+        <div class="industry-pedagogy__container">
+            <h2 class="industry-pedagogy__title">Industry-led Pedagogy</h2>
+            <img class="industry-pedagogy--data" src="./assets/images/Untitled-1.png" alt="img">
+            
+        </div>
+    </div>
+
+
+    <div class="programme">
+        <div class="programme--container">
+            <h2 class="programme__title">Programme Content</h2>
+        
+        <div>
+            <div class="programme__section">
+                <div class="programme__header" data-target="content1">Semester 1</div>
+                <div class="programme__content" id="content1">
+                    <!-- Content for Semester 1 -->
+                    <p>Details for Semester 1.</p>
+                </div>
+            </div>
+    
+            <div class="programme__section">
+                <div class="programme__header" data-target="content2">Semester 2</div>
+                <div class="programme__content" id="content2">
+                    <!-- Content for Semester 2 -->
+                    <p>Details for Semester 2.</p>
+                </div>
+            </div>
+    
+            <div class="programme__section">
+                <div class="programme__header" data-target="content3">Semester 3</div>
+                <div class="programme__content" id="content3">
+                    <!-- Content for Semester 3 -->
+                    <p>Details for Semester 3.</p>
+                </div>
+            </div>
+    
+            <div class="programme__section">
+                <div class="programme__header" data-target="content4">Semester 4</div>
+                <div class="programme__content" id="content4">
+                    <!-- Content for Semester 4 -->
+                    <p>Details for Semester 4.</p>
+                </div>
+            </div>
+    
+            <div class="programme__section">
+                <div class="programme__header" data-target="content5">Electives</div>
+                <div class="programme__content" id="content5">
+                    <!-- Content for Electives -->
+                    <p>Details for Electives.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="DownloadBroucher__button">Download Brouchar</div>
+        </div>
+        
+
+    </div>
+
+    <div class="admission">
+        <h2 class="admission__title">Admission Fee and Financing</h2>
+
+        <div class="admission--container">
+            <div class="admission__emi">
+
+                <div class="admission__emi-topContainer">
+                    <h3 class="admission__emi-title">Easy EMI Options Available*</h3>
+                    <p class="admission__emi-text">Pay in easy monthly installments with our EMI options. No more worrying about
+                        finances; start your learning journey today!</p>
+                    <div class="admission__emi-logos">
+
+                        <div class="admission__emiLogos--container">
+                        <img src="./assets/images/blueLogo..jpg" alt="GrayQuest" class="admission__emi-logo">
+                            
+                        </div>
+                        <div class="admission__emiLogos--container">
+                        <img src="./assets/images/logo_eduvanz copy.jpg" alt="Eduvanz" class="admission__emi-logo">
+                            
+                        </div>
+                        <div class="admission__emiLogos--container">
+                        <img src="./assets/images/logo_new.png" alt="LiquiLoans" class="admission__emi-logo">
+                            
+                        </div>
+
+                    </div>
+                </div>
+                
+
+                <div class="admission__payment">
+                    <h3 class="admission__payment-title">Complete Payment</h3>
+                    <p class="admission__payment-text">Participants can make one-time payment easily using options such as:</p>
+                    <div class="admission__payment-methods">
+                        <div class="admission__payment-option">
+                            <img src="./assets/images/Internet Banking.png" alt="Internet Banking">
+                            <p class="admission__payment-option--modeText">Internet Banking</p>
+                        </div>
+                        <div class="admission__payment-option">
+                            <img src="./assets/images/Credit Debit Card.png" alt="Credit/Debit Card">
+                            <p class="admission__payment-option--modeText">Credit/Debit Card</p>
+                        </div>
+                        <div class="admission__payment-amount">
+                            <button class="admission__payment-button">INR 1,70,000/-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+
+        </div>
+        
+
+    </div>
+
+    <section class="criteria">
+
+        <div class="criteria--mainContainer">
+            <h2 class="criteria__title">Eligibility Criteria</h2>
+            <div class="criteria__tabs">
+                <button class="criteria__tab criteria__tab--active" id="academic-tab">Academic Criteria</button>
+                <button class="criteria__tab" id="selection-tab">Selection Criteria</button>
+            </div>
+            <div class="criteria__content" id="academic-content">
+                <ul class="criteria__list">
+                    <li class="criteria__item">Candidates must have passed 10 + 2.</li>
+                    <li class="criteria__item">Candidates must have completed an undergraduate degree in Mathematics at 10 + 2
+                        level or at graduation level.</li>
+                    <li class="criteria__item">Students in their final year can apply with the last completed semester results.
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="criteria__content criteria__content--hidden" id="selection-content">
+                <ul class="criteria__list">
+                    <li class="criteria__item">Candidates must have cleared the entrance test.</li>
+                    <li class="criteria__item">Interview with faculty is mandatory.</li>
+                    <li class="criteria__item">Final selection based on merit and performance.</li>
+                </ul>
+            </div>
+        
+        </div>
+        
+    </section>
+
+    <div class="faculty-slider">
+        <h1 class="faculty-slider__title">Learn from the Best</h1>
+        <div class="faculty-slider__container swiper mySwiper1 swiper-initialized swiper-horizontal swiper-backface-hidden">
+            <div class="swiper-wrapper" id="swiper-wrapper-a343734945a735fe" aria-live="polite"
+                style="transition-duration: 0ms; transition-delay: 0ms; transform: translate3d(0px, 0px, 0px);">
+                
+                <div class="faculty-slider__item swiper-slide swiper-slide-active" role="group" aria-label="1 / 4"
+                    style="width: 391.5px; margin-right: 20px;">
+                    <img src="./assets/images/Layer 97 copy 2.jpg" alt="Prof. Anish Sugathan" loading="lazy" height="260" width="260">
+                    <p class="faculty-slider__item-facultyName">Prof. Anish Sugathan</p>
+                    <p class="faculty-slider__item-facultyDesc">
+                        Associate Professor of Strategy
+                    </p>
+                </div>
+
+                <div class="faculty-slider__item swiper-slide swiper-slide-next" role="group" aria-label="2 / 4"
+                    style="width: 391.5px; margin-right: 20px;">
+                    <img src="./assets/images/Layer 98 copy.png" loading="lazy" height="260" width="260" alt="Prof. Dhiman Bhadra">
+                    <p class="faculty-slider__item-facultyName">Prof. Dhiman Bhadra</p>
+                    <p class="faculty-slider__item-facultyDesc">
+                        Associate Professor of Operations and Decision Sciences
+                    </p>
+                </div>
+    
+                <div class="faculty-slider__item swiper-slide" role="group" aria-label="3 / 4"
+                    style="width: 391.5px; margin-right: 20px;">
+                    <img src="./assets/images/Layer 99 copy.jpg" loading="lazy" height="260" width="260" alt="Prof. Amit Karna">
+                    <p class="faculty-slider__item-facultyName">Prof. Amit Karna</p>
+                    <p class="faculty-slider__item-facultyDesc">
+                        Professor of Strategy
+                    </p>
+                </div>
+    
+                <div class="faculty-slider__item swiper-slide" role="group" aria-label="4 / 4"
+                    style="width: 391.5px; margin-right: 20px;">
+                    <img src="./assets/images/Layer 100 copy.jpg" loading="lazy" height="260" width="260" alt="Prof. Debjit Roy">
+                    <p class="faculty-slider__item-facultyName">Prof. Debjit Roy</p>
+                    <p class="faculty-slider__item-facultyDesc">
+                        Professor of Operations and Decision Sciences
+                    </p>
+                </div>
+    
+            </div>
+    
+            <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                aria-controls="swiper-wrapper-a343734945a735fe" aria-disabled="false"></div>
+            <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide"
+                aria-controls="swiper-wrapper-a343734945a735fe" aria-disabled="true"></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            <p class="faculty-slider--secialNote">*The above list of faculty is partial</p>
+        </div>
+
+    </div>
+
+   
+    <section class="certification">
+        <h2 class="certification__title">Certification</h2>
+        <div class="certification__content">
+            <img src="./assets/images/mba-certificate.png" alt="Certification Image" class="certification__image" />
+            <p class="certification__description">
+                Earn a prestigious AICTE-approved degree from Amrita Vishwa Vidyapeetham, the seventh-ranked University in
+                India. As per the UGC regulations, Online degrees at the undergraduate and postgraduate levels shall be
+                treated as equivalent to the corresponding awards of the degrees at the undergraduate and postgraduate
+                levels offered through conventional mode.
+            </p>
+        </div>
+    </section>
+
+    <section class="mba-banner">
+
+        <div class="mba-banner--container">
+            <h1 class="mba-banner__title">ONLINE MBA</h1>
+            <h2 class="mba-banner__subtitle">Amrita Vishwa Vidyapeetham</h2>
+            <p class="mba-banner__description">
+                This programme offers a flexible and rigorous curriculum designed to empower students with advanced knowledge of
+                computer applications.
+            </p>
+            <a href="#" class="mba-banner__btn">Apply Now</a>
+        </div>
+        
+    </section>
+    
+
+    
+
+
+
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // script.js
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true,
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 5,
+                },
+            },
+        });
+
+    </script>
+    <script>
+        var swiper1 = new Swiper(".mySwiper1", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          // Add breakpoints
+          breakpoints: {
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            // when window width is >= 1024px
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+            // when window width is >= 1280px
+            1280: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+          },
+        });
+      </script>
+     <script src="App.js"></script>
+
+</body>
+</html>
