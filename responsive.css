@@ -72,7 +72,7 @@
         flex-direction: column;
     }
     .criteria__item {
-        line-height: 23px;
+        line-height: 12px;
     }
     .certification {
         background: unset;
