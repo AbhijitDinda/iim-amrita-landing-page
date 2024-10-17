@@ -244,7 +244,7 @@ header {
 }
 
 .btn {
-    padding: 0.5rem 0.7rem;
+    padding: 0.75rem 0.25rem;
     background: #328a1c;
     color: #fff;
     border: none;
@@ -401,9 +401,10 @@ section {
     border-right: 2px solid white;
     color: white;
     font-family: Arial, sans-serif;
-    width: 120px;
-    margin-top: 10px; position: relative;
-    height: 40px;
+    width: 150px;
+    /* margin-top: 10px; */
+    position: relative;
+    height: 50px;
     margin-left: 15px;
   }
 
@@ -411,8 +412,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     /* background-color: transparent; */
     border-radius: 50%;
     position: absolute;
@@ -441,7 +442,7 @@ section {
 
   .banner-programFee{
     padding-top: 28px;
-    font-size: var(--font-header);
+    font-size: 2rem;
     color: #fff;
     font-weight: 600;
   }
@@ -551,7 +552,7 @@ section {
 
 /* Programme Overview Section */
 .programme-overview {
-    background-color: #f0f0f0;
+    background-color: #dfdfdf;
     padding: var(--section-padding);
     display: flex;
     flex-direction: column;
@@ -986,7 +987,7 @@ section {
 
   .certification {
     position: relative;
-    background: linear-gradient(to bottom, white 50%, #f2f2f2 50%);
+    background: linear-gradient(to bottom, white 50%, #dfdfdf 50%);
     padding: var(--section-padding);
     text-align: center;
     /* min-height: 500px; */
