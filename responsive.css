@@ -86,6 +86,10 @@
     #slider-accreditations-next{
         right: -10px;
     }
+
+    .program-content-tabs {
+        grid-template-columns: 1fr;
+    }
     
 }
 @media (min-width: 1024px) {

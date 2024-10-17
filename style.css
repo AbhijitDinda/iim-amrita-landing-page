@@ -1091,4 +1091,31 @@ section {
     position: relative;
   }
 
-  
+
+  .program-content-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.program-content-tab {
+  position: relative;
+}
+.program-content-tab .program-tab-title {
+  padding: 10px 20px;
+  color: #000;
+  /* font-weight: var(--strong-font); */
+  background: #e7e7e7;
+  text-align: center;
+  border-radius: 10px;
+  /* cursor: pointer; */
+  transition: all 250ms ease-in-out;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
