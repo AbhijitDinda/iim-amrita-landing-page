@@ -77,6 +77,15 @@
     .certification {
         background: unset;
     }
+
+    #slider-accreditations-prev{
+        left: -10px;
+        
+    }
+
+    #slider-accreditations-next{
+        right: -10px;
+    }
     
 }
 @media (min-width: 1024px) {
