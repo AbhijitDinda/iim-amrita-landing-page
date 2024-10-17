@@ -90,6 +90,9 @@
     .program-content-tabs {
         grid-template-columns: 1fr;
     }
+    .certification__image {
+        width: 100%;
+    }
     
 }
 @media (min-width: 1024px) {
