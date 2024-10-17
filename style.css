@@ -979,10 +979,12 @@ section {
   .faculty-slider__item .faculty-slider__item-facultyDesc {
     margin-top: 10px;
     font-size: var(--font-small);
+    font-weight: 600;
   }
   .faculty-slider--secialNote{
-    margin-top: 20px;
+    margin-top: 22px;
     font-size: var(--font-small);
+    /* font-weight: 600; */
   }
 
   .certification {
@@ -1035,7 +1037,7 @@ section {
 
 
   .mba-banner {
-    background-color: #c52a54;
+    background-color: #b80b4d;
     color: white;
     text-align: center;
     padding: var(--section-padding);
@@ -1048,22 +1050,23 @@ section {
   }
   .mba-banner__title {
     /* font-size: var(--font-super); */
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: var(--font-Bebas);
     color: #fff;
-    line-height: 4rem;
+    line-height: 5rem;
     font-weight: var(--light-font);
     padding-bottom: 10px;
   }
   
   .mba-banner__subtitle {
-    font-size: 20px;
-    padding: 10px 20px;
+    font-size: 25px;
+    padding: 15px 30px;
     border: 2px solid white;
     border-radius: 8px;
     display: inline-block;
     margin-bottom: 20px;
-  }
+    background-color: #bc1655;
+}
   
   .mba-banner__description {
     font-size: var(--font-medium);
