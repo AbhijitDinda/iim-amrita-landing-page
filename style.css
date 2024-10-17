@@ -698,13 +698,14 @@ section {
 }
 
 .programme__header {
-    background-color: #f7f7f7;
+    background-color: #dfdfdf;
     padding: 15px;
     font-size: var(--font-medium);
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 600;
 }
 
 .programme__header::after {
